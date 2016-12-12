@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff"
+    android:padding="4dip" >
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Transcribe the text into romaji:"
+        android:textColor="#000"
+        android:textStyle="italic"
+        android:typeface="serif" />
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:padding="4dip" >
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/background_up" />
+        <TextView
+            android:id="@+id/hiragana"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dip"
+            android:layout_marginLeft="0dip"
+            android:layout_marginRight="0dip"
+            android:background="@drawable/textbox2"
+            android:gravity="center"
+            android:text="ひらがな"
+            android:textColor="#900"
+            android:textSize="32sp" />
+        <EditText
+            android:id="@+id/edit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dip"
+            android:gravity="center"
+            android:hint="Romaji goes here"
+            android:imeOptions="actionGo"
+            android:inputType="textNoSuggestions"
+            android:text="hiragana"
+            android:textColor="#000"
+            android:textSize="24sp" />
+        <Button
+            android:id="@+id/button_validate"
+            style="@style/button"
+            android:text="Check!" />
+        <!--
+             <Button
+            android:id="@+id/button_next"
+            style="@style/button"
+            android:text="Next" />
+        -->
+        <Button
+            android:id="@+id/button_prefs"
+            style="@style/button"
+            android:text="Preferences" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal" >
+    </LinearLayout>
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/ad"
+        android:src="@drawable/background_down" />
+</RelativeLayout>

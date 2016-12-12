@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="C:\Users\juraj\StudioProjects\hiraganaquiz\app\src\main\assets"><file name="fonts/myfaircody.otf" path="C:\Users\juraj\StudioProjects\hiraganaquiz\app\src\main\assets\fonts\myfaircody.otf"/></source><source path="C:\Users\juraj\StudioProjects\hiraganaquiz\app\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="C:\Users\juraj\StudioProjects\hiraganaquiz\app\src\debug\assets"/></dataSet></merger>

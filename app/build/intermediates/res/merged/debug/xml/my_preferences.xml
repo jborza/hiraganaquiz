@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="Character series">
+		<CheckBoxPreference android:key="a" android:title="A"
+			android:defaultValue="true" android:summary="あ、い、う、え、お" />
+		<CheckBoxPreference android:key="k" android:title="K,G"
+			android:defaultValue="true" android:summary="科、き、く、け、こ；が、ぎ、ぐ、げ、ご" />
+		<CheckBoxPreference android:key="s" android:title="S,Z"
+			android:defaultValue="true" android:summary="さ、し、す、せ、そ；ざ、じ、ず、ぜ、ぞ" />
+		<CheckBoxPreference android:key="t" android:title="T,D"
+			android:defaultValue="true" android:summary="た、ち、す、て、と；　だ、で、ど" />
+		<CheckBoxPreference android:key="n" android:title="N"
+			android:defaultValue="true" android:summary="な、に、ぬ、ね、の" />
+		<CheckBoxPreference android:key="h" android:title="H,B,P"
+			android:defaultValue="true" android:summary="は、ひ、ふ、へ、ほ；ば、び、ぶ、べ、ぼ；ぱ、ぴ、ぷ、ぺ、ぽ" />
+		<CheckBoxPreference android:key="m" android:title="M"
+			android:defaultValue="true" android:summary="ま、み、む、め、も" />
+		<CheckBoxPreference android:key="r" android:title="R"
+			android:defaultValue="true" android:summary="ら、り、る、れ、ろ" />
+		<CheckBoxPreference android:key="y" android:title="Y,W,N"
+			android:defaultValue="true" android:summary="や、ゆ、よ；わ、を；ん" />
+			<CheckBoxPreference android:key="di" android:title="Kya, Shu, Cho, ..."
+			android:defaultValue="true" android:summary="きゃ,しゅ,ちょ,びゅ" />
+	</PreferenceCategory>
+</PreferenceScreen>

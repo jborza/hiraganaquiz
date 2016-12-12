@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hiragana Quiz</string>
+    <string name="facebook_url">http://www.facebook.com/borzaindustries</string>
+    <style name="button">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">60dip</item>
+        <item name="android:background">@drawable/hiragana_button</item>
+        <item name="android:layout_marginLeft">6dip</item>
+        <item name="android:layout_marginRight">6dip</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:layout_marginBottom">6dip</item>
+        <item name="android:textSize">20dip</item>
+    </style>
+</resources>
